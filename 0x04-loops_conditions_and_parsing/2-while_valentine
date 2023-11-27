@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bash script that displays Holberton School 10 times
+# Bash script that displays my name 10 times
 cont=1
 while [ $cont -le 10 ];
 do
