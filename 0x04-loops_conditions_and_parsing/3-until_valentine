@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# displays until loop Valentine Kiguli 10 times
+
+COUNT=0
+until [ "$COUNT" -eq 10 ]; do
+      echo "Valentine Kiguli"
+      let COUNT=COUNT+1
+done
