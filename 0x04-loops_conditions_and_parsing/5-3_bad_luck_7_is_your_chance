@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# script displaying " good luck" "Valentine Kiguli" "bad luck" 
+# Bash script displaying "good luck" "Valentine Kiguli" "bad luck" 
 
 CONTER=0
 while [ $CONTER -lt 10 ];
