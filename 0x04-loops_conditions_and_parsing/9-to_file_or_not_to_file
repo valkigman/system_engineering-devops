@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Bash script gives you information about the Valentine Kiguli's file
+if [ -e valentinekiguli ]
+then
+    echo "Valentine Kiguli's file exists"
+    if [ -s valentinekiguli]
+    then
+echo "Valentine Kiguli's file is not empty"
+    else
+echo "Valentine Kiguli's file is empty"
+    fi
+    if [ -f valentinekiguli ]
+    then
+echo "Valentine Kiguli's is a regular file"
+    fi
+else
+    echo "Valentine Kiguli's file does not exist"
+fi
